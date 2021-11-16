@@ -1,0 +1,4 @@
+rl-1@Manager
+rl-2@Staff
+rl-3@Customer
+rl-4@Applicant

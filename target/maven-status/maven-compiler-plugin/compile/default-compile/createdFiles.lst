@@ -1,0 +1,13 @@
+gui\HomeMenuMNGR.class
+handler\BookHandler.class
+main\Main.class
+model\Status.class
+handler\BorrowHandler.class
+gui\MainMenuCustomer.class
+model\Role.class
+model\Book.class
+gui\MainMenuStaff.class
+helpGUI\JPanelWithBackground.class
+model\User.class
+gui\LoginMenu.class
+handler\StatusHandler.class
