@@ -1,4 +1,8 @@
 node {
+  stage('SCM') {
+    checkout scm
+  }
+  
   stage('build') {
     bat "mvn clean package -Dmaven.test.skip=true"
   }
