@@ -9,7 +9,12 @@ pipeline {
         }
         
         stage('SonarQube Analysis') {
-            
+            steps {
+                def scannerHome = tool 'sonarqube';
+                withSonarQubeEnv() {
+                    bat "${scannerHome}/bin/sonar-scanner"
+                }
+            }
         }
         
     }
