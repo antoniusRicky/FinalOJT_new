@@ -351,7 +351,7 @@ public class Main {
 	
 	public void mainMenu() {
 		System.out.println("Welcome To OJT Library");
-		System.out.println("-------------------------------");
+		System.out.println("--------------------------------");
 		System.out.println("1. Show Available Book");
 		System.out.println("2. Borrow");
 		System.out.println("3. Return");
