@@ -309,7 +309,7 @@ public class Main {
 	public void loginMenu() {
 		while (currUser.isEmpty()) {
 			System.out.println("Please Login First");
-			System.out.println("-------------------------------");
+			System.out.println("--------------------------------");
 			
 			// id
 			while(currUser.isEmpty()) {
